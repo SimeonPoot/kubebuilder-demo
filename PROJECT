@@ -1,0 +1,7 @@
+domain: simp.io
+repo: kubebuilder-demo
+resources:
+- group: hosts
+  kind: HostWatcher
+  version: v1
+version: "2"

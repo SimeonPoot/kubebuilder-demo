@@ -1,0 +1,7 @@
+apiVersion: hosts.simp.io/v1
+kind: HostWatcher
+metadata:
+  name: hostwatcher-sample
+spec:
+  # Add fields here
+  foo: bar

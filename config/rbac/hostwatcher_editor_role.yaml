@@ -1,0 +1,24 @@
+# permissions for end users to edit hostwatchers.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: hostwatcher-editor-role
+rules:
+- apiGroups:
+  - hosts.simp.io
+  resources:
+  - hostwatchers
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - hosts.simp.io
+  resources:
+  - hostwatchers/status
+  verbs:
+  - get
