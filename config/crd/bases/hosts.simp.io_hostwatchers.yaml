@@ -34,9 +34,9 @@ spec:
         spec:
           description: HostWatcherSpec defines the desired state of HostWatcher
           properties:
-            configmapname:
-              description: Foo is an example field of HostWatcher. Edit HostWatcher_types.go
-                to remove/update
+            configMapName:
+              description: ConfigMapName is an example field of HostWatcher. Edit
+                HostWatcher_types.go to remove/update
               type: string
           type: object
         status:
